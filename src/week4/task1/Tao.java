@@ -1,9 +1,9 @@
 package week4.task1;
 
 public class Tao extends HoaQua{
-    HoaQua T = new HoaQua();
-    protected boolean dinhdanh;
-
+        //TODO: Khai báo thuộc tính
+    protected boolean dinhdanh; // Định danh vùng miền
+        //TODO: Phương thức khởi tạo
     Tao(){
 
     }
@@ -11,8 +11,7 @@ public class Tao extends HoaQua{
         super(n, place, p);
         dinhdanh = dd;
     }
-
-        //TODO: Get Information
+        //TODO: In thông tin ra màn hình
     public void getInfo(){
         String Info;
         Info = name + " " + xx + ": " + price;

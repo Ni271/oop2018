@@ -1,9 +1,10 @@
 package week4.task2;
 
 public class Rectangle extends Shape {
+        //TODO: Khởi tạo thuộc tính
     protected double width = 1.0;
     protected double length = 1.0;
-        //TODO:
+        //TODO: Phương thức khởi tạo
     Rectangle(){
 
     }
@@ -23,22 +24,22 @@ public class Rectangle extends Shape {
     public double getLength(){
         return length;
     }
-        //TODO:
+        //TODO: Setter
     public void setWidth(double w){
         width = w;
     }
     public void setLength(double l){
         length = l;
     }
-        //TODO:
+        //TODO: Tính diện tích hình chữ nhật
     public double getArea(){
-        return 2*(width+length);
-    }
-        //TODO:
-    public double getPerimeter(){
         return width*length;
     }
-        //TODO:
+        //TODO: Tính chu vi hình chữ nhật
+    public double getPerimeter(){
+        return 2*(width+length);
+    }
+        //TODO: Chuỗi thông tin về Rectangle
     public String toString(){
         String s;
         s = super.toString() + ", width: " + width+", length: "+length+", area: "+ getArea()+", perimeter: "+getPerimeter();

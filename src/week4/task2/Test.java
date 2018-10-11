@@ -1,6 +1,7 @@
 package week4.task2;
 
 public class Test {
+        //TODO: Kiểm tra chương trình
     public static void main(String[] args){
         Circle C1 = new Circle(2.5);
         Circle C2 = new Circle(2.0, "green", true);

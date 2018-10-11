@@ -3,6 +3,7 @@ package week4.task1;
 import java.util.Date;
 
 public class HoaQua {
+        //TODO: Khởi tạo thuộc tính
     protected String name, xx;
     protected double price;
 
@@ -26,7 +27,7 @@ public class HoaQua {
     public void setPrice(double p){
         price = p;
     }
-        //TODO: Khoi tao
+        //TODO: Phương thức khởi tạo
     HoaQua(){
     }
     HoaQua(String n, String place, double p){

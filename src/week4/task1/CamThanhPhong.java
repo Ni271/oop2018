@@ -3,11 +3,10 @@ package week4.task1;
 import java.util.Date;
 
 public class CamThanhPhong extends Cam{
-        //TODO:
-    Cam TP = new Cam();
+        //TODO: Khởi tạo thuộc tính
     protected Date date; //
     protected int SL;
-        //TODO:
+        //TODO: Phương thức khởi tạo
     CamThanhPhong(){
 
     }
@@ -17,7 +16,7 @@ public class CamThanhPhong extends Cam{
         date = d;
         SL = sl;
     }
-        //TODO:
+        //TODO: In ra màn hình thông tin của CamThanhPhong
     public void getInfo(){
         super.getInfo();
         System.out.println("Ngay nhap: " + date.toString());

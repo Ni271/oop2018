@@ -18,11 +18,11 @@ public class Shape {
     public void setFilled(boolean f){
         filled = f;
     }
-        //TODO:
+        //TODO: Chuỗi thông tin về Shape
     public String toString(){
         return "color: " + color + ", isFilled: " + filled;
     }
-        //TODO:
+        //TODO: Phương thức khởi tạo
     Shape(){
 
     }
