@@ -2,8 +2,8 @@ package week4.task2;
 
 public class Shape {
         //TODO: Khai báp thuộc tính
-    protected String color;
-    protected boolean filled;
+    protected String color = "red";
+    protected boolean filled = true;
         //TODO: Gettter
     public String getColor(){
         return color;
